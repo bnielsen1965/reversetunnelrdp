@@ -19,6 +19,7 @@ linux desktop.
 
 ## Connection diagram
 
+```
 -----------------                                                  ---------------
 | linux desktop | (RDP port) <----- SSH Tunnel ------> (host port) | host system |
 -----------------                                                  ---------------
@@ -30,6 +31,7 @@ linux desktop.
                                                                   -----------------
                                                                   | remote client |
                                                                   -----------------
+```
 
 The bash script is executed on the isolated linux desktop and establishes an 
 SSH connection to the host system using a known user account on the host system.
