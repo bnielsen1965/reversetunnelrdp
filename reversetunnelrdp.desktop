@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Exec=/bin/bash -c "$HOME/.local/share/applications/reversetunnelrdp.sh"
+Name=Reverse Tunnel RDP
+GenericName=Reverse Tunnel RDP
+Comment=Reverse Tunnel RDP
+Terminal=true
+Type=Application
+Categories=RemoteAccess;Network;Utility
+
